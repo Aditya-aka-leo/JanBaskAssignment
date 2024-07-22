@@ -1,6 +1,6 @@
 
 
-<h1 align="center">JanBask Assignment Assignment 🧭 </h1>
+<h1 align="center">JanBask  Assignment 🧭 </h1>
 
 ## 📚 | Problem Statement
 
