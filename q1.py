@@ -1,10 +1,10 @@
-def CountSubArray( st , pat ) :
+def countSubArray( st , pat ) :
 
-    NumOcc = st.count( pat )                #using the inbuilt function to get the number of occurrences
+    numOcc = st.count( pat )                #using the inbuilt function to get the number of occurrences
 
-    return NumOcc
+    return numOcc
 
-def CountArrayWF( st , pat ) :
+def countArrayWf( st , pat ) :
     m = len(st)
     
     n = len(pat)
@@ -29,8 +29,8 @@ str = input("Please Enter The String : ")
 
 pattern = input("Please Enter The Pattern : ")
 
-ans = CountSubArray( str , pattern )
-ans1 = CountArrayWF( str , pattern )
+ans = countSubArray( str , pattern )
+ans1 = countArrayWf( str , pattern )
 
 print(f"The Number Of Times Pattern '{pattern}' was found is : {ans} ")
 print(f"The Number Of Times Pattern '{pattern}' was found is : {ans1} ")
